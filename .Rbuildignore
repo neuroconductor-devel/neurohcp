@@ -12,3 +12,8 @@ data/HCP_1200_csvs/*
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^DESCRIPTION\.bak$
+^\.github$
+^autoci\.yml$
+^autoci_pkgdown\.yml$
+^tic\.R$

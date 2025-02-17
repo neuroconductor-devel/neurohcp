@@ -3,37 +3,29 @@ Type: Package
 Title: Human 'Connectome' Project Interface
 Version: 0.10.0
 Date: 2021-09-08
-Authors@R: c(person(given = "John",
-           family = "Muschelli",
-           email = "muschellij2@gmail.com",
-           role = c("aut", "cre")),
-           person(given = "Adi",
-           family = "Gherman",
-           email = "adrian.gherman@gmail.com",
-           role = c("ctb")))
-Description: Downloads and reads data from Human 'Connectome' Project 
-    <https://db.humanconnectome.org> using Amazon Web Services ('AWS') 
-    'S3' buckets.
-License: GPL-2 
+Authors@R: c(person(given = "John", family = "Muschelli", email =
+        "muschellij2@gmail.com", role = c("aut", "cre")), person(given
+        = "Adi", family = "Gherman", email =
+        "adrian.gherman@gmail.com", role = c("ctb")))
+Description: Downloads and reads data from Human 'Connectome' Project
+        <https://db.humanconnectome.org> using Amazon Web Services
+        ('AWS') 'S3' buckets.
+License: GPL-2
 LazyData: true
 LazyLoad: true
-Depends:
-    R (>= 2.10)
-Imports:
-    digest,
-    httr,
-    utils,
-    xml2 (>= 1.0.1),
-    base64enc,
-    aws.s3,
-    methods
-Suggests:
+Depends: R (>= 2.10)
+Imports: digest, httr, utils, xml2 (>= 1.0.1), base64enc, aws.s3,
+        methods
+Suggests: 
     dplyr,
     knitr,
     rmarkdown,
-    covr
+    covr,
+    testthat
 RoxygenNote: 7.1.1
 URL: https://db.humanconnectome.org
 BugReports: https://github.com/muschellij2/neurohcp/issues
 VignetteBuilder: knitr
 Encoding: UTF-8
+Repository: Neuroconductor-Devel
+biocViews: 
