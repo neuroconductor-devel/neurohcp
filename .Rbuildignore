@@ -17,3 +17,4 @@ data/HCP_1200_csvs/*
 ^autoci\.yml$
 ^autoci_pkgdown\.yml$
 ^tic\.R$
+^\./tic\.R\.bak$
